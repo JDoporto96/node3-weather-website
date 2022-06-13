@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="/img/Yu_Jing_-_Main_Logo_-_-N3-_-Vyo-.png">
+    <link rel="stylesheet" href="/css/styles.css">
+   
+    <title>Weather</title>
+</head>
+<body>
+    <div class="main-content">
+        {{>header}}
+        <p>Use this site to get your weather</p>
+
+        <form>
+            <input placeholder="Location" type="text">
+            <button>Search</button>
+        </form>
+
+        <p id="message-1"></p>
+        <p id="message-2"></p>
+    </div>
+
+    {{>footer}}
+
+     <script src="/js/app.js"></script>
+</body>
+</html>
